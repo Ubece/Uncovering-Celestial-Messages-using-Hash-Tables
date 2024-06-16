@@ -1,0 +1,83 @@
+# CelestialMessagesInitialization.dat
+# Hash Table Configuration
+TableSize: 10
+LoadFactorThreshold: 0.5
+
+# Operations
+# Format: OperationType, "Key", "Value"
+# Insertion (I) and Deletion (D)
+# Examples:
+# I, "ConstellationName", "DecodedMessage"
+# D, "ConstellationName"
+
+# Insert
+I, "Pleiades", "Welcome to the universe!"
+I, "Orion", "Seek the stars."
+I, "Cassiopeia", "Navigate the night."
+I, "Andromeda", "Beyond the Milky Way."
+I, "Cygnus", "Flight through the stars."
+I, "Scorpius", "Sting of the cosmos."
+I, "Libra", "Balance of space."
+I, "Vega", "Brightness in solitude."
+I, "Ursa", "Bear of the stars."
+I, "Draco", "Dragon of the night."
+I, "Aquila", "Eagle in flight."
+I, "Lyra", "The celestial harp."
+I, "Centaurus", "Myth of the skies."
+I, "Hercules", "Strength of the heavens."
+I, "Perseus", "Hero of the stars."
+I, "Hydra", "Serpent of deep space."
+I, "Leo", "The cosmic lion."
+I, "Gemini", "Twins of the galaxy."
+I, "Taurus", "Bull of the heavens."
+I, "Cancer", "Crab from the starry shore."
+I, "Pisces", "Fish swimming in the celestial river."
+I, "Virgo", "Maiden of the cosmos."
+I, "Capricorn", "Goat with stars at its feet."
+I, "Aries", "Ram of the stars."
+I, "Sagittarius", "Archer of the galaxy."
+
+# Delete
+D, "Orion"
+D, "Cassiopeia"
+D, "Libra"
+D, "Vega"
+D, "Draco"
+
+
+# Mixed
+I, "Norma", "Standard of the skies."
+D, "Leo"
+I, "Crux", "Southern cross."
+D, "Taurus"
+I, "Carina", "Keel of the ship."
+I, "Canopus", "Bright guide of the southern skies."
+D, "Serpens"
+I, "Pollux", "Bright twin in the winter sky."
+D, "Hercules"
+I, "Castor", "Other half of the Gemini twins."
+D, "Hydra"
+I, "Procyon", "Little dog following Orion."
+D, "Perseus"
+I, "Regulus", "Heart of the lion."
+D, "Aquila"
+I, "Aldebaran", "Eye of the Taurus."
+D, "Andromeda"
+I, "Deneb", "Tail of the swan."
+D, "Centaurus"
+I, "Altair", "Eagle flying through summer skies."
+D, "Lyra"
+I, "Antares", "Rival of Mars."
+D, "Gemini"
+I, "Fomalhaut", "Mouth of the southern fish."
+D, "Pisces"
+I, "Rigel", "Bright foot of Orion."
+D, "Virgo"
+I, "Betelgeuse", "Orion's giant red shoulder."
+D, "Capricorn"
+I, "Spica", "Ear of grain in the hand of Virgo."
+D, "Aries"
+I, "Sirius", "The brightest star in our night sky."
+D, "Sagittarius"
+I, "Arcturus", "Guardian of the bear."
+D, "Cancer"
